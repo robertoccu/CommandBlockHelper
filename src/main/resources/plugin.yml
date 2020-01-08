@@ -1,8 +1,8 @@
 name: CommandBlockHelper
 description: Plugin that allow players to edit Command Blocks without creative mode nor being opped.
 main: io.github.robertoccu.commandblockhelper.CommandBlockHelper
-version: 1.0.1
-api-version: 1.13
+version: 1.0.1_1.15.1
+api-version: 1.15
 author: robertoccu
 commands:
   cbset:
