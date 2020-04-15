@@ -6,7 +6,7 @@
 
   <groupId>io.github.robertoccu</groupId>
   <artifactId>CommandBlockHelper</artifactId>
-  <version>1.0.1_1.15.1</version>
+  <version>1.0.2</version>
   <build>
     <plugins>
       <plugin>

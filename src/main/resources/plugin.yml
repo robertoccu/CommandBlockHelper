@@ -1,7 +1,7 @@
 name: CommandBlockHelper
 description: Plugin that allow players to edit Command Blocks without creative mode nor being opped.
 main: io.github.robertoccu.commandblockhelper.CommandBlockHelper
-version: 1.0.1
+version: 1.0.2
 api-version: 1.15
 author: robertoccu
 commands:
@@ -10,7 +10,7 @@ commands:
     usage: You must write "/cbset [command]" looking at a command block.
   cbadd:
     description: Add more text at the end of the command on the target command block.
-    usage: You must write "/cbset [more command]" looking at a command block.
+    usage: You must write "/cbadd [more command]" looking at a command block.
   cbget:
     description: Show the command on the target command block.
     usage: You must write "/cbget" looking at a command block.

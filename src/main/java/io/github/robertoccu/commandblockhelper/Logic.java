@@ -17,7 +17,7 @@ public class Logic {
 
   public static String addToCBCommand(BlockState cmdBlock, String command, Player player) {
     String oldCommand = ((CommandBlock)cmdBlock).getCommand();
-    String newCommand = oldCommand + " " + command;
+    String newCommand = oldCommand + command;
 
     cmdBlock.update();
     return setCBCommand(cmdBlock, newCommand, player);
